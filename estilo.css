@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(205, 205, 218);
+  background: radial-gradient(
+    circle,
+    rgba(205, 205, 218, 1) 4%,
+    rgba(199, 219, 216, 1) 66%
+  );
+  background-size: cover;
+  color: black;
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.logo {
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  opacity: 0.8;
+}
+
+h1 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#texto {
+  width: 100%;
+  background: border-box;
+  border: none;
+  height: 500px;
+}
+
+#resultado {
+  width: 100%;
+  background: border-box;
+  border: none;
+  height: 500px;
+}
+
+.recuadro label,
+.recuadro textarea {
+  display: block;
+  width: 100%;
+}
+
+.recuadro button {
+  margin-top: 10px;
+}
+
+.recuadro {
+  background-image: url(img/1.png);
+  background-size: cover;
+  background-position-y: center;
+  border-radius: 10px;
+}
+
+.ocultar {
+  background: none;
+}
+
+.resultado {
+  margin: 10px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  font-weight: bolder;
+}
+
+button {
+  margin: 10px auto 0;
+  display: block;
+}
+
+textarea {
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 10%;
+  height: auto;
+  align-items: center;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  bottom: 0;
+}
+
+.grupo1,
+.grupo2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grupo2 {
+  text-align: center;
+  justify-content: center;
+}
+
+.grupo2 p {
+  margin: 0;
+}
+
+.grupo1 img {
+  width: 2px;
+  height: 2px;
+  margin-right: 1px;
+}
+
+.grupo2 img {
+  width: 2px;
+  height: 2px;
+  margin-right: 5px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.foot {
+  display: flex;
+}
+
+.cuerpoizq {
+  width: 65%;
+}
+
+.cuerpoder {
+  width: 30%;
+  background-color: gainsboro;
+  border-radius: 10px;
+  background-image: url(img/1.png);
+  background-size: cover;
+}
+
+.cuerpoder2 {
+  width: 30%;
+  background-color: gainsboro;
+  border-radius: 10px;
+  background-image: none;
+  background-repeat: round;
+}
+
+.botones {
+  display: flex;
+}
+
+.boton1 {
+  background-color: cornflowerblue;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.boton2 {
+  background-color: grey;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.logos {
+  text-align: center;
+}
+
+textarea:focus {
+  outline: none;
+}
